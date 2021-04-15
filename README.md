@@ -12,6 +12,7 @@
 - Two different Cache files are created through service-worker.
 - First One caches all the static files in Public folder and Second One caches the routes apis with site data.
 - Offline Functionality with IndexedDb added. It will save data while offline and upload data while internet connected is re-established.
+- Manifest added to to make the site downloadable
 
 ## Site:
 - Link to the site: https://ryan7998-budget-tracker.herokuapp.com
