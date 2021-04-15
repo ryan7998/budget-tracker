@@ -38,6 +38,8 @@ function saveRecord(record) {
   
     // add record to your store with add method
     budgetObjectStore.add(record);
+    let trans = (record.value>0) ? "Deposit" : "Expense";
+    alert(trans + " Added");
 }
 
 function uploadBudget() {

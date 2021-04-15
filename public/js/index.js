@@ -132,6 +132,8 @@ function sendTransaction(isAdding) {
       // clear form
       nameEl.value = "";
       amountEl.value = "";
+      let trans = isAdding ? "Deposit" : "Expense";
+      alert(trans + " Added");
     }
   })
   .catch(err => {
